@@ -9,6 +9,7 @@ conductor es **Pixel**, una mascota virtual que construimos lección a lección:
 de Java en línea, gratuito y sin registro.
 
 - **Plan del curso:** [`course-plan.md`](course-plan.md)
+- **Playlist de YouTube:** [Ver las 7 lecciones](https://www.youtube.com/playlist?list=PLfRUfspseIio)
 - **Repositorio:** https://github.com/Team-Coworkers/java-fundamentals-course-team-coworkers
 
 ## Lecciones
