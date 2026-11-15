@@ -1,36 +1,35 @@
 public class Main {
     public static void main(String[] args) {
-        int nota = 14;
+        String nombre = "Pixel";
+        int energia = 25;
 
         // Decisiones con if, else if y else
-        if (nota >= 11) {
-            System.out.println("Aprobado con " + nota);
+        if (energia < 30) {
+            System.out.println(nombre + " tiene hambre. ¡Dale de comer!");
+        } else if (energia < 70) {
+            System.out.println(nombre + " está bien.");
         } else {
-            System.out.println("Desaprobado con " + nota);
+            System.out.println(nombre + " está lleno de energía.");
         }
 
-        if (nota >= 18) {
-            System.out.println("Excelente");
-        } else if (nota >= 14) {
-            System.out.println("Muy bien");
-        } else if (nota >= 11) {
-            System.out.println("Bien, puedes mejorar");
-        } else {
-            System.out.println("Hay que repasar");
+        // Condiciones combinadas: && (y)  || (o)
+        boolean esDeDia = true;
+        if (esDeDia && energia > 20) {
+            System.out.println(nombre + " quiere salir a jugar.");
         }
 
-        // Bucle for: repetir un número conocido de veces
-        int numero = 7;
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(numero + " x " + i + " = " + (numero * i));
+        // for: repetir un número conocido de veces
+        System.out.println("--- Pixel hace ejercicio ---");
+        for (int vuelta = 1; vuelta <= 3; vuelta++) {
+            System.out.println("Vuelta número " + vuelta);
         }
 
-        // Bucle while: repetir mientras se cumpla una condición
-        int cuenta = 5;
-        while (cuenta > 0) {
-            System.out.println(cuenta + "...");
-            cuenta--;
+        // while: repetir mientras la condición sea verdadera
+        System.out.println("--- Hora de comer ---");
+        while (energia < 100) {
+            energia = energia + 25;
+            System.out.println("Ñam ñam... energía: " + energia);
         }
-        System.out.println("¡Despegue!");
+        System.out.println(nombre + " ya está lleno.");
     }
 }
