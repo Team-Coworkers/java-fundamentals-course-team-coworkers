@@ -1,27 +1,45 @@
-import java.util.Scanner;
+class Mascota {
+    private String nombre;
+    private int energia;
+    // Reto 1: agrega el atributo privado especie (y recíbelo en el constructor)
 
-class Estudiante {
-    // 1. Haz privados los atributos nombre y nota.
-    String nombre;
-    double nota;
-
-    Estudiante(String nombre, double nota) {
+    public Mascota(String nombre) {
         this.nombre = nombre;
-        this.nota = nota;
+        this.energia = 50;
     }
 
-    // 2. Agrega getNombre() y getNota().
-    // 3. Agrega setNota(double nota) que solo acepte notas entre 0 y 20.
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEnergia() {
+        return energia;
+    }
+
+    public void setEnergia(int energia) {
+        if (energia < 0) {
+            this.energia = 0;
+        } else if (energia > 100) {
+            this.energia = 100;
+        } else {
+            this.energia = energia;
+        }
+    }
+
+    // Reto 1: crea getEspecie()
+
 }
 
 public class Main {
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
+        // Reto 2: crea un refugio con 4 mascotas
+        Mascota[] refugio = new Mascota[4];
 
-        // 4. Crea un arreglo para 3 estudiantes: Estudiante[] registro = new Estudiante[3];
-        // 5. Con un for, pide el nombre y la nota de cada uno y guárdalos en el arreglo.
-        // 6. Muestra el registro completo y el nombre del estudiante con la mejor nota.
 
-        teclado.close();
+        // Cambia la energía de algunas con setEnergia(...)
+
+
+        // Muestra solo las que tienen más de 40 de energía (for + if)
+
     }
 }
