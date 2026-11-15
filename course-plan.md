@@ -340,7 +340,7 @@ Carrera de Ingeniería de Software · Período 202620
 | --- | --- |
 | 🏷️ **Equipo** | Team Coworkers |
 | 👑 **Líder** | José Antonio Santana Luna |
-| 📅 **Fecha de entrega** | *Pendiente* |
+| 📅 **Fecha de entrega** | 14/11/2026 |
 
 **Integrantes:**
 
