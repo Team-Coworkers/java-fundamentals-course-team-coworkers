@@ -2,17 +2,21 @@ import java.util.Scanner;
 
 public class Main {
 
-    // 1. Crea un método saludar(String nombre) que muestre "¡Hola, <nombre>!".
+    // Crea aquí el método jugar(int energia):
+    // resta 15 y devuelve el resultado (nunca menor que 0)
 
-    // 2. Crea un método calcularPromedio(int a, int b, int c) que devuelva un double.
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        int energia = 100;
 
-        // 3. Pide el nombre con teclado.nextLine() y llama a saludar.
+        System.out.print("¿Cuántas veces quieres jugar? ");
+        int veces = teclado.nextInt();
 
-        // 4. Pide tres notas con teclado.nextInt() y muestra el promedio.
+        // Usa un for para llamar a jugar(energia) 'veces' veces
 
+
+        System.out.println("Energía final: " + energia);
         teclado.close();
     }
 }

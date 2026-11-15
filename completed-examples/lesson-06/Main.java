@@ -1,63 +1,64 @@
-import java.util.Scanner;
-
-class Estudiante {
-    // private: nadie fuera de la clase puede cambiar estos datos directamente
+class Mascota {
+    // private: nadie de afuera puede tocar estos datos directamente
     private String nombre;
-    private double nota;
+    private int energia;
 
-    Estudiante(String nombre, double nota) {
+    public Mascota(String nombre) {
         this.nombre = nombre;
-        setNota(nota);
+        this.energia = 50;
     }
 
+    // Getters: permiten LEER los datos
     public String getNombre() {
         return nombre;
     }
 
-    public double getNota() {
-        return nota;
+    public int getEnergia() {
+        return energia;
     }
 
-    // El setter protege el dato: solo acepta notas entre 0 y 20
-    public void setNota(double nota) {
-        if (nota >= 0 && nota <= 20) {
-            this.nota = nota;
+    // Setter: permite CAMBIAR un dato, pero con reglas
+    public void setEnergia(int energia) {
+        if (energia < 0) {
+            this.energia = 0;
+        } else if (energia > 100) {
+            this.energia = 100;
         } else {
-            System.out.println("Nota no válida: " + nota + ". Se guarda 0.");
-            this.nota = 0;
+            this.energia = energia;
         }
     }
 
-    public boolean estaAprobado() {
-        return nota >= 11;
+    public void jugar() {
+        setEnergia(energia - 15);
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
-        Estudiante[] registro = new Estudiante[3];
+        Mascota pixel = new Mascota("Pixel");
+        // pixel.energia = -500;   // ERROR: energia es private
+        pixel.setEnergia(-500);
+        System.out.println(pixel.getNombre() + ": " + pixel.getEnergia());
 
-        for (int i = 0; i < registro.length; i++) {
-            System.out.print("Nombre del estudiante " + (i + 1) + ": ");
-            String nombre = teclado.nextLine();
-            System.out.print("Nota de " + nombre + ": ");
-            double nota = Double.parseDouble(teclado.nextLine());
-            registro[i] = new Estudiante(nombre, nota);
+        // Un arreglo de objetos: el refugio de mascotas
+        Mascota[] refugio = new Mascota[3];
+        refugio[0] = new Mascota("Pixel");
+        refugio[1] = new Mascota("Rocky");
+        refugio[2] = new Mascota("Luna");
+
+        refugio[1].jugar();
+        refugio[2].setEnergia(90);
+
+        System.out.println("--- Mascotas del refugio ---");
+        for (int i = 0; i < refugio.length; i++) {
+            Mascota m = refugio[i];
+            System.out.println((i + 1) + ". " + m.getNombre() + " - energía: " + m.getEnergia());
         }
 
-        System.out.println();
-        System.out.println("=== REGISTRO DE ESTUDIANTES ===");
-        Estudiante mejor = registro[0];
-        for (Estudiante estudiante : registro) {
-            String estado = estudiante.estaAprobado() ? "aprobado" : "desaprobado";
-            System.out.println(estudiante.getNombre().toUpperCase() + " - " + estudiante.getNota() + " - " + estado);
-            if (estudiante.getNota() > mejor.getNota()) {
-                mejor = estudiante;
-            }
-        }
-        System.out.println("Mejor nota: " + mejor.getNombre() + " con " + mejor.getNota());
-
-        teclado.close();
+        // Trabajando con cadenas de texto (String)
+        String nombre = refugio[2].getNombre();
+        System.out.println(nombre.toUpperCase());
+        System.out.println(nombre.length() + " letras");
+        System.out.println("Empieza con: " + nombre.charAt(0));
     }
 }
