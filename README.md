@@ -15,7 +15,7 @@ de Java en línea, gratuito y sin registro.
 
 | # | Lección | Duración | Video |
 | --- | --- | :---: | --- |
-| 1 | ¿Qué es programar y por qué Java? | 6 min | [Ver](https://youtu.be/7pbnH-DSjmo) |
+| 1 | ¿Qué es programar y por qué Java? | 6 min | [Ver](https://www.youtube.com/watch?v=_Uq5HfIYQLQ) |
 | 2 | Variables, tipos de datos y operadores | 8 min | [Ver](https://youtu.be/P8Lg9PE7bDM) |
 | 3 | Decisiones y repeticiones | 9 min | [Ver](https://youtu.be/vsmA4ss_Gww) |
 | 4 | Métodos y entrada/salida | 9 min | [Ver](https://youtu.be/5EPGH9D_-34) |
