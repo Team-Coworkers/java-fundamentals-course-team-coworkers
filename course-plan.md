@@ -290,7 +290,7 @@ Juntamos todo lo aprendido en un juego interactivo: una mascota virtual a la que
 Probar todos los casos, no solo el que esperas, es un hábito de buen programador.
 
 **Video:**
-*Enlace de YouTube pendiente de publicación.*
+[Ver Lección 7 en YouTube](https://youtu.be/j1xIFB9m4b8)
 
 **Práctica:**
 *Enlace precargado de OnlineGDB pendiente.* Mientras tanto, abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) y pega el [archivo inicial](starter-files/lesson-07/Main.java). 👈 **¡No necesitas registrarte!**

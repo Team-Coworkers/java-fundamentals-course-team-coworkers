@@ -21,7 +21,7 @@ de Java en línea, gratuito y sin registro.
 | 4 | Métodos y entrada/salida | 9 min | [Ver](https://youtu.be/5EPGH9D_-34) |
 | 5 | Mi primera clase: clases y objetos | 10 min | [Ver](https://youtu.be/kx1MyhD9aTo) |
 | 6 | Encapsulación y arreglos de objetos | 9 min | [Ver](https://youtu.be/ssbrFCMCgRg) |
-| 7 | Proyecto final: Mi Mascota Virtual + buenas prácticas | 10 min | *Pendiente* |
+| 7 | Proyecto final: Mi Mascota Virtual + buenas prácticas | 10 min | [Ver](https://youtu.be/j1xIFB9m4b8) |
 
 ## Tecnologías
 
