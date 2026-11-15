@@ -44,10 +44,10 @@ Qué es programar, por qué empezar con Java y cómo ejecutar el primer programa
 Un programa es una lista de instrucciones; `System.out.println("...");` muestra un texto en la consola.
 
 **Video:**
-[Ver Lección 1 en YouTube](https://youtu.be/7pbnH-DSjmo)
+[Ver Lección 1 en YouTube](https://www.youtube.com/watch?v=_Uq5HfIYQLQ)
 
 **Práctica:**
-*Enlace precargado de OnlineGDB pendiente.* Mientras tanto, abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) y pega el [archivo inicial](starter-files/lesson-01/Main.java). 👈 **¡No necesitas registrarte!**
+Abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler), elige **Java** en *Language* y pega el [archivo inicial](starter-files/lesson-01/Main.java) de la lección. 👈 **¡No necesitas registrarte!**
 
 **Reto de la pausa:**
 Cambiar el saludo para que diga tu nombre y agregar una línea con tu comida favorita.
@@ -88,7 +88,7 @@ Pixel recibe sus primeros datos: aprendemos a guardarlos en variables, a disting
 [Ver Lección 2 en YouTube](https://youtu.be/P8Lg9PE7bDM)
 
 **Práctica:**
-*Enlace precargado de OnlineGDB pendiente.* Mientras tanto, abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) y pega el [archivo inicial](starter-files/lesson-02/Main.java). 👈 **¡No necesitas registrarte!**
+Abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler), elige **Java** en *Language* y pega el [archivo inicial](starter-files/lesson-02/Main.java) de la lección. 👈 **¡No necesitas registrarte!**
 
 **Reto de la pausa:**
 Crear las variables de tu propia mascota y calcular su edad en días.
@@ -129,7 +129,7 @@ Java revisa las condiciones de arriba hacia abajo y entra solo en la primera que
 [Ver Lección 3 en YouTube](https://youtu.be/vsmA4ss_Gww)
 
 **Práctica:**
-*Enlace precargado de OnlineGDB pendiente.* Mientras tanto, abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) y pega el [archivo inicial](starter-files/lesson-03/Main.java). 👈 **¡No necesitas registrarte!**
+Abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler), elige **Java** en *Language* y pega el [archivo inicial](starter-files/lesson-03/Main.java) de la lección. 👈 **¡No necesitas registrarte!**
 
 **Reto de la pausa:**
 Hacer una cuenta regresiva del 10 al 1 con `for` y un saludo según la hora con `if`.
@@ -170,7 +170,7 @@ Un método se escribe una vez y se llama las veces que haga falta: `energia = al
 [Ver Lección 4 en YouTube](https://youtu.be/5EPGH9D_-34)
 
 **Práctica:**
-*Enlace precargado de OnlineGDB pendiente.* Mientras tanto, abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) y pega el [archivo inicial](starter-files/lesson-04/Main.java). 👈 **¡No necesitas registrarte!**
+Abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler), elige **Java** en *Language* y pega el [archivo inicial](starter-files/lesson-04/Main.java) de la lección. 👈 **¡No necesitas registrarte!**
 
 **Reto de la pausa:**
 Crear el método `jugar` que nunca deje la energía bajo 0 y llamarlo con un `for` las veces que pida el usuario.
@@ -211,7 +211,7 @@ Cada objeto guarda sus propios datos: lo que le pasa a Pixel no le pasa a Rocky.
 [Ver Lección 5 en YouTube](https://youtu.be/kx1MyhD9aTo)
 
 **Práctica:**
-*Enlace precargado de OnlineGDB pendiente.* Mientras tanto, abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) y pega el [archivo inicial](starter-files/lesson-05/Main.java). 👈 **¡No necesitas registrarte!**
+Abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler), elige **Java** en *Language* y pega el [archivo inicial](starter-files/lesson-05/Main.java) de la lección. 👈 **¡No necesitas registrarte!**
 
 **Reto de la pausa:**
 Agregar el atributo `edad`, crear el método `dormir()` y una tercera mascota propia.
@@ -252,7 +252,7 @@ Encapsular es esconder los datos y dejarlos cambiar solo con métodos que ponen 
 [Ver Lección 6 en YouTube](https://youtu.be/ssbrFCMCgRg)
 
 **Práctica:**
-*Enlace precargado de OnlineGDB pendiente.* Mientras tanto, abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) y pega el [archivo inicial](starter-files/lesson-06/Main.java). 👈 **¡No necesitas registrarte!**
+Abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler), elige **Java** en *Language* y pega el [archivo inicial](starter-files/lesson-06/Main.java) de la lección. 👈 **¡No necesitas registrarte!**
 
 **Reto de la pausa:**
 Agregar el atributo privado `especie` con su getter y mostrar solo las mascotas del refugio con más de 40 de energía.
@@ -293,7 +293,7 @@ Probar todos los casos, no solo el que esperas, es un hábito de buen programado
 [Ver Lección 7 en YouTube](https://youtu.be/j1xIFB9m4b8)
 
 **Práctica:**
-*Enlace precargado de OnlineGDB pendiente.* Mientras tanto, abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) y pega el [archivo inicial](starter-files/lesson-07/Main.java). 👈 **¡No necesitas registrarte!**
+Abre [OnlineGDB](https://www.onlinegdb.com/online_java_compiler), elige **Java** en *Language* y pega el [archivo inicial](starter-files/lesson-07/Main.java) de la lección. 👈 **¡No necesitas registrarte!**
 
 **Reto de la pausa:**
 Agregar la opción "Bañar", un atributo `hambre` o un refugio de 3 mascotas para elegir con cuál jugar.
@@ -315,13 +315,13 @@ Para comparar textos no uses `==`: usa `equals`, por ejemplo `nombre.equals("Pix
 
 | Lección # | Actividad | Empezar a programar |
 | --- | --- | --- |
-| 1 | Lección 1: ¿Qué es programar y por qué Java? | *Pendiente* |
-| 2 | Lección 2: Variables, tipos de datos y operadores | *Pendiente* |
-| 3 | Lección 3: Decisiones y repeticiones | *Pendiente* |
-| 4 | Lección 4: Métodos y entrada/salida | *Pendiente* |
-| 5 | Lección 5: Mi primera clase: clases y objetos | *Pendiente* |
-| 6 | Lección 6: Encapsulación y arreglos de objetos | *Pendiente* |
-| 7 | Lección 7: Proyecto final: Mi Mascota Virtual + buenas prácticas | *Pendiente* |
+| 1 | Lección 1: ¿Qué es programar y por qué Java? | [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) con el [archivo inicial](starter-files/lesson-01/Main.java) |
+| 2 | Lección 2: Variables, tipos de datos y operadores | [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) con el [archivo inicial](starter-files/lesson-02/Main.java) |
+| 3 | Lección 3: Decisiones y repeticiones | [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) con el [archivo inicial](starter-files/lesson-03/Main.java) |
+| 4 | Lección 4: Métodos y entrada/salida | [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) con el [archivo inicial](starter-files/lesson-04/Main.java) |
+| 5 | Lección 5: Mi primera clase: clases y objetos | [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) con el [archivo inicial](starter-files/lesson-05/Main.java) |
+| 6 | Lección 6: Encapsulación y arreglos de objetos | [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) con el [archivo inicial](starter-files/lesson-06/Main.java) |
+| 7 | Lección 7: Proyecto final: Mi Mascota Virtual + buenas prácticas | [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) con el [archivo inicial](starter-files/lesson-07/Main.java) |
 
 - **Para seguir aprendiendo:** [dev.java](https://dev.java/learn/), el sitio oficial de aprendizaje de Java.
 - **Compartir:** #JavaBeginners
