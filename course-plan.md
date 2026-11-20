@@ -15,7 +15,7 @@ practicar en un editor en línea. **¡No requiere descargas!** Solo abre tu nave
 **Herramientas necesarias:** **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)<br>
 **Editor en línea:** [OnlineGDB](https://www.onlinegdb.com/online_java_compiler), gratuito y sin registro
 
-**▶️ Playlist del curso en YouTube:** [Ver las 7 lecciones](https://www.youtube.com/playlist?list=PLfRUfspseIio)<br>
+**▶️ Playlist del curso en YouTube:** [https://www.youtube.com/playlist?list=PLfRUfspseIio](https://www.youtube.com/playlist?list=PLfRUfspseIio)<br>
 **📂 Repositorio de Código Fuente:** [https://github.com/Team-Coworkers/java-fundamentals-course-team-coworkers](https://github.com/Team-Coworkers/java-fundamentals-course-team-coworkers)
 
 ## Secuencia de Lecciones
@@ -310,7 +310,7 @@ Para comparar textos no uses `==`: usa `equals`, por ejemplo `nombre.equals("Pix
 
 ## Recursos adicionales
 
-- **Playlist del curso:** [Todas las lecciones en YouTube](https://www.youtube.com/playlist?list=PLfRUfspseIio)
+- **Playlist del curso:** [https://www.youtube.com/playlist?list=PLfRUfspseIio](https://www.youtube.com/playlist?list=PLfRUfspseIio)
 - **Código fuente completo:** [Repositorio de GitHub](https://github.com/Team-Coworkers/java-fundamentals-course-team-coworkers)
 - **Editor en línea:** [OnlineGDB](https://www.onlinegdb.com/online_java_compiler)
 - **Todas las actividades prácticas:**
